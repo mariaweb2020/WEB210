@@ -1,0 +1,48 @@
+body {
+  margin: auto;
+  width: 80%;
+  background-color: rgb(247, 218, 218);
+  border-block: 1px;
+}
+
+img {
+  width: 200px;
+  float: left;
+  padding-right: 10px;
+}
+
+a {
+  color: rgb(180, 59, 38);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(59, 8, 245);
+}
+
+ul li a {
+  color: rgb(59, 8, 245);
+}
+
+.my_name {
+  background-color: rgb(255, 180, 130);
+  padding: 20px;
+  text-align: center;
+  color: rgb(16, 42, 121);
+}
+
+h2 {
+  color: rgb(6, 49, 99);
+}
+
+h3 {
+  color: rgb(15, 64, 214);
+}
+
+section {
+  padding: 10px;
+}
+
+.horiz1 {
+  border: 1px solid rgb(44, 20, 4);
+}
