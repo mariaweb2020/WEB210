@@ -1,0 +1,69 @@
+body {
+  margin: auto;
+  width: 80%;
+  background-image: url(../images/background.jpg);
+  border-block: 1px;
+  font-family: "Caveat", cursive;
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  width: 200px;
+  float: left;
+  padding-right: 10px;
+}
+
+a {
+  color: rgb(180, 59, 38);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(59, 8, 245);
+}
+
+ul li a {
+  color: rgb(59, 8, 245);
+}
+
+.my_name {
+  background-color: rgb(245, 216, 179);
+  padding: 20px;
+  text-align: center;
+  color: rgb(16, 42, 121);
+  text-shadow: 2px 2px 5px yellow;
+}
+
+h2 {
+  color: rgb(6, 49, 99);
+}
+
+h1 {
+  font-family: "Caveat", cursive;
+  font-size: 60px;
+}
+
+h3 {
+  color: rgb(15, 64, 214);
+  margin-top: 0;
+}
+
+section {
+  padding: 10px;
+}
+
+.view {
+  padding-bottom: 10px;
+}
+
+.work {
+  background-color: rgb(247, 233, 216);
+}
+
+.horiz1 {
+  border: 1px solid rgb(44, 20, 4);
+}
+
+.image2 {
+  float: right;
+}
