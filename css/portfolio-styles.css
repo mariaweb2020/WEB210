@@ -1,0 +1,183 @@
+/*--------------------------------------------------------------
+Colors + Fonts
+
+Light pink:  #f8dcf0
+Blue: rgb(43, 8, 241)
+Light blue: rgb(179, 213, 245)
+Red: rgb(85, 4, 4)
+
+    
+--------------------------------------------------------------*/
+
+body {
+    background-color: #f8dcf0;
+}
+
+.container {
+  background-color: #fac3ea;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.site-title {
+    text-align: center;
+}
+
+.logo {
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.horiz {
+  border: 1.2px solid #f7042d;
+  padding: 1px;
+}
+
+
+
+/* Navigation bar */
+
+nav ul {
+  /* styles for the unordered list which will become the menu */
+  margin: 0;
+  text-align: left;
+  /* aligns menu text to the left side */
+}
+
+/* styles for the list items */
+
+nav ul li {
+  
+  display: none;
+  cursor: pointer;
+	transition: .6s;
+}
+
+nav ul li a {
+  text-decoration: none;
+	display: block;
+	border-bottom: 1px solid rgb(20, 0, 0);
+  color: rgb(43, 8, 241);
+	transition: .6s;
+}
+
+nav ul li:hover {
+  /* styles the nenu when the cursor rolls over it */
+  background: #f8b6ea;
+  /* changes background color when rolled over it */
+  border-bottom: 2px solid rgb(85, 4, 4);
+  /* places a border colored dark red when rolled over it */
+
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+#toggle {
+	display: none;
+}
+
+#toggle:checked + ul li {
+	display: block;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+   label {
+	display: none;
+}
+
+#toggle {
+	display: none;
+}
+
+nav ul {
+  margin: 0 auto;
+}
+
+nav ul li {
+  /* styles for the list items */
+  	display: inline-block;
+  /* displays menu items in one line */
+  	padding: 10px 20px;
+  /* adds padding around the text */
+  	background: rgb(179, 213, 245);
+  /* changes backgound color on the menu items */
+  	border-radius: 6px;
+  /* rounds the unordered list corners */
+  	border-top: 3px solid lightgray;
+  	border-bottom: 3px solid lightgray;
+  	cursor: pointer;
+	transition: .6s;
+}
+
+nav ul li a {
+  text-decoration: none;
+	display: block;
+	border-bottom: none;
+  color: rgb(43, 8, 241);
+	transition: .6s;
+}
+
+/* Grid */
+
+.image-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.right {
+  padding-top: 40px;
+}
+
+.image4 {
+  padding-bottom: 30px;
+}
+
+}
+
+
+/* @media only screen and (min-width: 600px) */
+
+
+img {
+    display: block;
+    width: 50%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.image1, .image3, .image4 {
+    padding-top: 20px;
+}
+
+.image2 {
+    display: inline-block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30px;
+}
+
+
+.horiz2 {
+  border: 1.2px solid #3175f3;
+  margin-top: 100px;
+  width: 70%;
+  }
+
+
+
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 2em;
+}
